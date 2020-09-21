@@ -16,6 +16,7 @@ const LogItem = ({ log }) => {
         </a>
         <br />
         <span className='grey-text'>
+          <span className='black-text'>ID #{log.id} </span>
           <span className='black-text'>{log.tech}</span>
         </span>
       </div>
