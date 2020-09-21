@@ -1,4 +1,5 @@
 import React from 'react';
+import Moment from 'react-moment';
 import PropTypes from 'prop-types';
 
 const LogItem = ({ log }) => {
@@ -13,6 +14,10 @@ const LogItem = ({ log }) => {
         >
           {log.message}
         </a>
+        <br />
+        <span className='grey-text'>
+          <span className='black-text'>{log.tech}</span>
+        </span>
       </div>
     </li>
   );
