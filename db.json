@@ -13,13 +13,6 @@
       "tech": "Ive Mao",
       "date": "2020-09-23T15:00:56.303Z",
       "id": 2
-    },
-    {
-      "message": "Test no 3",
-      "attention": false,
-      "tech": "John Doe",
-      "date": "2020-09-23T15:04:01.324Z",
-      "id": 3
     }
   ],
   "techs": [
