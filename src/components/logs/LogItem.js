@@ -4,9 +4,13 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { deleteLog } from '../../actions/logActions';
 
+import M from 'materialize-css/dist/js/materialize.min.js';
+
 const LogItem = ({ log, deleteLog }) => {
   const onDelete = () => {
     deleteLog(log.id);
+
+    M.toast({ html: 'Log Deleted' });
   };
 
   return (
