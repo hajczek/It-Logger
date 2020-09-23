@@ -1,5 +1,27 @@
 {
-  "logs": [],
+  "logs": [
+    {
+      "message": "Change card",
+      "attention": false,
+      "tech": "John Doe",
+      "date": "2020-09-23T15:00:27.495Z",
+      "id": 1
+    },
+    {
+      "message": "Fix hard drive",
+      "attention": false,
+      "tech": "Ive Mao",
+      "date": "2020-09-23T15:00:56.303Z",
+      "id": 2
+    },
+    {
+      "message": "Test no 3",
+      "attention": false,
+      "tech": "John Doe",
+      "date": "2020-09-23T15:04:01.324Z",
+      "id": 3
+    }
+  ],
   "techs": [
     {
       "id": 1,
