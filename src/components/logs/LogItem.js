@@ -32,7 +32,7 @@ const LogItem = ({ log, deleteLog }) => {
 
 LogItem.propTypes = {
   log: PropTypes.object.isRequired,
-  deleteLog: PropTypes.func.isRequired
+  deleteLog: PropTypes.func.isRequired,
 };
 
-export default connect(null, {deleteLog})(LogItem;)
+export default connect(null, { deleteLog })(LogItem);
