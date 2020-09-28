@@ -7,6 +7,6 @@ This project was made during the course 'React Front To Back' by Brad Traversy o
 - React
 - Redux
 - json-server
-- materializeCSS
+- Materialize
 
 [Link to this course &raquo;](https://www.udemy.com/course/modern-react-front-to-back/)
