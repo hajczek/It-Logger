@@ -41,7 +41,7 @@ export const addTech = (tech) => async (dispatch) => {
     const data = await res.json();
 
     dispatch({
-      type: GET_TECHS,
+      type: ADD_TECH,
       payload: data,
     });
   } catch (err) {
