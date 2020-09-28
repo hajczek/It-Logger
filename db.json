@@ -3,9 +3,9 @@
     {
       "id": 1,
       "message": "test log 2",
-      "attention": false,
+      "attention": true,
       "tech": "John Doe",
-      "date": "2020-09-28T07:35:13.054Z"
+      "date": "2020-09-28T07:49:23.003Z"
     }
   ],
   "techs": [
