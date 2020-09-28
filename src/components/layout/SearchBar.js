@@ -1,6 +1,9 @@
 import React from 'react';
+import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
+import { searchLogs } from '../../actions/logActions';
 
-const SearchBar = () => {
+const SearchBar = ({ searchLogs }) => {
   return (
     <nav style={{ marginBottom: '30px' }} className='blue'>
       <div className='nav-wrapper'>
@@ -18,4 +21,4 @@ const SearchBar = () => {
   );
 };
 
-export default SearchBar;
+export default connect()(SearchBar);
