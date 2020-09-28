@@ -73,14 +73,16 @@ const EditLogModal = ({ current, updateLog }) => {
         <div className='row'>
           <div className='input-field'>
             <p>
-              <label
-                type='checkbox'
-                className='filled-in'
-                checked={attention}
-                value={attention}
-                onChange={(e) => setAttention(!attention)}
-              />
-              <span>Needs attention</span>
+              <label>
+                <input
+                  type='checkbox'
+                  className='filled-in'
+                  checked={attention}
+                  value={attention}
+                  onChange={(e) => setAttention(!attention)}
+                />
+                <span>Needs attention</span>
+              </label>
             </p>
           </div>
         </div>
