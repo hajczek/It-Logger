@@ -4,7 +4,7 @@ import {
   DELETE_TECH,
   SET_LOADING,
   TECHS_ERROR,
-} from './types';
+} from '../actions/types';
 
 const initialState = {
   techs: null,
